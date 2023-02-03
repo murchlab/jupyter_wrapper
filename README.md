@@ -106,6 +106,7 @@ port = 28888
 
 The package depends on the following python packages:
 
+- jupyter
 - tomli
 - pathlib
 - subprocess
