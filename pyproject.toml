@@ -2,7 +2,7 @@
 name = "rathole_wrapper"
 version = "0.1"
 dependencies = [
-    "requests",
-    "subprocess",
-    "zipfile"
+    "tomli",
+    "pathlib",
+    "subprocess"
 ]
