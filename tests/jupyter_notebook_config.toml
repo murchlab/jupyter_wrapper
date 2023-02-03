@@ -1,0 +1,46 @@
+# [Application]
+# log_datefmt = "%Y-%m-%d %H:%M:%S"
+# log_format = "[%(name)s]%(highlevel)s %(message)s"
+
+# [JupyterApp]
+# answer_yes = False
+# config_file = ""
+
+[NotebookApp]
+# allow_credentials = False
+# allow_origin = ""
+port = 18888
+
+# [ConnectionFileMixin]
+# connection_file = ""
+# control_port = 0
+
+# [KernelManager]
+
+# [Session]
+
+# [MultiKernelManager]
+
+# [MappingKernelManager]
+
+# [KernelSpecManager]
+
+# [ContentsManager]
+
+# [FileManagerMixin]
+
+# [FileContentsManager]
+
+# [NotebookNotary]
+
+# [AsyncMultiKernelManager]
+
+# [AsyncMappingKernelManager]
+
+# [GatewayKernelManager]
+
+# [GatewayKernelSpecManager]
+
+# [GatewayClient]
+
+# [TerminalManager]

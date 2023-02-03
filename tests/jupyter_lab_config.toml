@@ -1,0 +1,24 @@
+# [Application]
+# log_datefmt = "%Y-%m-%d %H:%M:%S"
+# log_format = "[%(name)s]%(highlevel)s %(message)s"
+
+# [JupyterApp]
+# answer_yes = False
+# config_file = ""
+
+# [ExtensionApp]
+# answer_yes = False
+# config_file = ""
+
+# [LabServerApp]
+# allowed_extensions_uris = ""
+# answer_yes = False
+
+# [LabApp]
+# allowed_extensions_uris = ""
+# answer_yes = False
+
+[ServerApp]
+# allow_credentials = False
+# allow_origin = ""
+port = 18888
