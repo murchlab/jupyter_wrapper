@@ -1,3 +1,4 @@
+# -*- coding: future_typing -*-
 import tomli
 import os
 from pathlib import Path
