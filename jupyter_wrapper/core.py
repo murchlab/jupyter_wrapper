@@ -44,7 +44,7 @@ def start_jupyter(lab_or_notebook: str, config_dir: str,
     args = ["jupyter", lab_or_notebook, "--config", config_py_file]
     if no_browser:
         args.append("--no-browser")
-    process = Popen(args, env=jupyter_env)
+    process = Popen(args, env=jupyter_env, shell=True)
     return process
 
 

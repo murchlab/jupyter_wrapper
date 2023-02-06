@@ -1,9 +1,7 @@
 [project]
-name = "rathole_wrapper"
+name = "jupyter_wrapper"
 version = "0.1"
 dependencies = [
-    “jupyter”,
-    "tomli",
-    "pathlib",
-    "subprocess"
+    "jupyter",
+    "tomli"
 ]
